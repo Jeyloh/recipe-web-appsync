@@ -1,11 +1,8 @@
 import React from "react";
 
-
-
 export default class CookbookWrapper extends React.Component {
 
   render() {
-
     return (
       <div style={styles.wrapper}>
 
@@ -65,9 +62,7 @@ export default class CookbookWrapper extends React.Component {
             onChange={e => this.props.onChange('name', e.target.value)}
           />
           <button onClick={this.props.addRecipe} style={styles.btn}>Add Recipe</button>
-
         </div>
-
       </div>
     )
   }
